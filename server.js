@@ -11,7 +11,7 @@ app.use(cors({
   }));
 app.use(express.json());
 app.use('/', router);
-app.listen('https://my-portfolio-server-guln.onrender.com', () => console.log('Server Running!'));
+app.listen('5000', () => console.log('Server Running!'));
 
 const contactEmail = nodemailer.createTransport({
   service: 'gmail',
